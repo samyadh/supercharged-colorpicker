@@ -1,0 +1,87 @@
+.circleWrapper {
+	position: relative;
+	height: 200px;
+}
+
+.center {
+	position: absolute;
+	width: 100px;
+	height: 105px;
+	top: 48px;
+	left: 50px;
+}
+
+.circle,
+.topArc,
+.botArc {
+	position: absolute;
+}
+
+.circle {
+	z-index: 0;
+}
+
+.colorPicked {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	top: 83px;
+	left: 83px;
+	background-color: rgb(255, 0, 0);
+	border: 2px solid #000000;
+}
+
+.topArc {
+	z-index: 1;
+	height: 60px;
+	overflow: hidden;
+	top: 0px;
+}
+
+.botArc {
+	z-index: 1;
+	height: 60px;
+	overflow: hidden;
+	bottom: 0px;
+}
+
+.botArc canvas {
+	margin-top: -40px;
+}
+
+.circlePicker {
+	position: absolute;
+	border: 2px solid #ffffff;
+	height: 14px;
+	width: 14px;
+	left: 90px;
+	top: 0px;
+	border-radius: 50%;
+	pointer-events: none;
+	box-shadow: 0px 0px 5px 2px #000000;
+}
+
+.topArcPicker {
+	position: absolute;
+	border: 2px solid #ffffff;
+	height: 8px;
+	width: 8px;
+	left: 81.5px;
+	top: 37.5px;
+	border-radius: 50%;
+	pointer-events: none;
+	box-shadow: 0px 0px 5px 2px #000000;
+}
+
+.botArcPicker {
+	position: absolute;
+	border: 2px solid #ffffff;
+	height: 8px;
+	width: 8px;
+	left: 6.5px;
+	top: 9px;
+	border-radius: 50%;
+	pointer-events: none;
+	box-shadow: 0px 0px 5px 2px #000000;
+}

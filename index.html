@@ -1,0 +1,23 @@
+<html>
+
+<head>
+	<title>Super Charged Color Picker Demo</title>
+	<link rel="stylesheet" type="text/css" href="./super-charged-color-picker/css/superChargedColorPicker.css">
+</head>
+
+<body>
+	<div id="canvasContainer"></div>
+	<div id="selectedColor"></div>
+	<script src="./super-charged-color-picker/js/superChargedColorPicker.js"></script>
+	<script>
+
+		var some = new superChargedColorPicker({
+			container: document.getElementById('canvasContainer'),
+			onChange: function (color) {
+				document.getElementById('selectedColor').innerHTML = color;
+			}
+		});
+	</script>
+</body>
+
+</html>
