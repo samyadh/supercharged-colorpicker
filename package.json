@@ -1,0 +1,27 @@
+{
+  "name": "supercharged-colorpicker",
+  "version": "0.0.1",
+  "description": "This is just another NPM package to pick color from colorwheel.",
+  "main": "superChargedColorPicker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samyadh/supercharged-colorpicker.git"
+  },
+  "keywords": [
+    "Color",
+    "picker",
+    "Angular",
+    "color",
+    "picker",
+    "colorpicker"
+  ],
+  "author": "Samyadh Jain",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/samyadh/supercharged-colorpicker/issues"
+  },
+  "homepage": "https://github.com/samyadh/supercharged-colorpicker#readme"
+}
